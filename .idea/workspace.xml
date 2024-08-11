@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9e538d9-5701-4863-8262-8decff96e6ad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/UIDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resizable/Debug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resizable/ResizableFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resizable/ResizableImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resizable/WaitForPause.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/triangle/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/triangle/Triangle.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+</project>
