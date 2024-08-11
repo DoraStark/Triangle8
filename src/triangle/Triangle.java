@@ -18,7 +18,7 @@ public class Triangle implements ResizableImage {
         int[] xPoints = {size.width / 2, 0, size.width};
         int[] yPoints = {0, size.height, size.height};
 
-        int maxLevel = 5; // 5 уровней для точного соответствия порядку цветов
+        int maxLevel = 5;
         drawSierpinski(gBuffer, xPoints, yPoints, maxLevel, maxLevel);
 
         return bufferedImage;
@@ -29,7 +29,7 @@ public class Triangle implements ResizableImage {
             g.setColor(getColorForLevel(currentLevel, maxLevel));
             g.fillPolygon(xPoints, yPoints, 3);
 
-            // Добавляем черную обводку
+
             g.setColor(Color.BLACK);
             g.drawPolygon(xPoints, yPoints, 3);
             return;
@@ -41,7 +41,7 @@ public class Triangle implements ResizableImage {
         g.setColor(getColorForLevel(currentLevel, maxLevel));
         g.fillPolygon(midX, midY, 3);
 
-        // Добавляем черную обводку
+
         g.setColor(Color.BLACK);
         g.drawPolygon(midX, midY, 3);
 
@@ -52,12 +52,12 @@ public class Triangle implements ResizableImage {
 
     private Color getColorForLevel(int level, int maxLevel) {
         Color[] colors = {
-                new Color(255, 182, 193),  // Light Pink (самый внутренний уровень)
-                new Color(255, 223, 186),  // Light Yellow
-                new Color(255, 255, 153),  // Light Blue
+                new Color(255, 182, 193),
+                new Color(255, 223, 186),
+                new Color(255, 255, 153),
                 new Color(187, 255, 255),
                 new Color(187, 255, 255),
-                new Color(187, 255, 255)// Lavender (внешний уровень)
+                new Color(187, 255, 255)
 
         };
         return colors[(maxLevel - level) % colors.length];
